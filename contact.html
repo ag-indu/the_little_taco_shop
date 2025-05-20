@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <li><a href="index.html#aboutLts">About us</a></li>
+            <li><a href="index.html#menu">Our Menu</a></li>
+            <li><a href="hours.html">Store hours</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </nav>
+    </header>
+    <main>
+        <figure>
+            <img src="img/tacos_close_up_400x260.png" alt="Little Taco Shop Tacos">
+            <figcaption>Little Taco Shop Tacos</figcaption>
+        </figure>
+        <hr>
+        <h2>Our Contact form</h2>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Send us a message</legend>
+                <p>
+                    <label for="firstName">Name</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Your Name" required>
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="your email" required>
+                </p>
+                <p>
+                    <label for="yourMessage">Your Message</label>
+                    <br>
+                    <textarea name="yourMessage" id="yourMessage" cols="30" rows="10" placeholder="Type your message here" required></textarea>
+                </p>
+            </fieldset>
+            <input type="submit">
+            <input type="reset">
+        </form>
+        <h2>Our location</h2>
+        <address>
+            <p>ARA-43212 near bypass Trivandrum</p>
+            Phone <a href="tel:+919123456789">+919123456789</a>
+        </address>
+        <a href="#">back to top</a>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; The Little Taco Shop</p>
+    </footer>
+</body>
+</html>
